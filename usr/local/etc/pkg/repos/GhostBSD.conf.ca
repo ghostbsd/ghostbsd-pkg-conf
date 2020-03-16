@@ -1,0 +1,6 @@
+# $GhostBSD$
+
+GhostBSD_ca: {
+  url: "http://pkg.ghostbsd.org/stable/${ABI}/latest",
+  enabled: yes
+}
