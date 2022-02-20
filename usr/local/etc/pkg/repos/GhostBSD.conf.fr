@@ -1,6 +1,8 @@
 # $GhostBSD$
 
 GhostBSD_FR: {
-  url: "http://pkg.fr.ghostbsd.org/stable/${ABI}/latest",
+  url: "https://pkg.fr.ghostbsd.org/stable/${ABI}/latest",
+  signature_type: "pubkey",
+  pubkey: "/usr/share/keys/ssl/certs/ghostbsd.cert",
   enabled: yes
 }

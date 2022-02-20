@@ -1,6 +1,0 @@
-# $GhostBSD$
-
-GhostBSD_US: {
-  url: "http://pkg.us.ghostbsd.org/stable/${ABI}/latest",
-  enabled: yes
-}
