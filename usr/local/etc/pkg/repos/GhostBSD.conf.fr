@@ -1,7 +1,15 @@
-# $GhostBSD$
+GhostBSD: { enabled: no }
+GhostBSD-base: { enabled: no }
 
 GhostBSD_FR: {
   url: "https://pkg.fr.ghostbsd.org/stable/${ABI}/latest",
+  signature_type: "pubkey",
+  pubkey: "/usr/share/keys/ssl/certs/ghostbsd.cert",
+  enabled: yes
+}
+
+GhostBSD_FR-base: {
+  url: "https://pkg.fr.ghostbsd.org/stable/${ABI}/base",
   signature_type: "pubkey",
   pubkey: "/usr/share/keys/ssl/certs/ghostbsd.cert",
   enabled: yes
