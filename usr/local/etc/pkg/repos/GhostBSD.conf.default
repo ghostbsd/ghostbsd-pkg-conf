@@ -1,0 +1,13 @@
+GhostBSD: {
+  url: "https://pkg.ghostbsd.org/stable/${ABI}/latest",
+  signature_type: "pubkey",
+  pubkey: "/usr/share/keys/ssl/certs/ghostbsd.cert",
+  enabled: yes
+}
+
+GhostBSD-base: {
+  url: "https://pkg.ghostbsd.org/stable/${ABI}/base",
+  signature_type: "pubkey",
+  pubkey: "/usr/share/keys/ssl/certs/ghostbsd.cert",
+  enabled: yes
+}
